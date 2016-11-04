@@ -16,3 +16,15 @@ figcaption {
 video {
     width: 100%;
 }
+
+
+
+/*
+STYLING VTT CUES */
+::cue(v) {
+    background-color: lightcoral;
+}
+
+::cue(c.blue-text) {
+    color: aqua;
+}
